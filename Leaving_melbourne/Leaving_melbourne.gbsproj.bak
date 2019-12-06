@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 0,
-        "worldScrollY": 0,
-        "zoom": 100,
+        "worldScrollX": 1215,
+        "worldScrollY": 600,
+        "zoom": 400,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -143,8 +143,8 @@
                 {
                     "id": "076a0612-024a-426a-85fc-3e1054b9f74e",
                     "spriteSheetId": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
-                    "x": 4,
-                    "y": 6,
+                    "x": 5,
+                    "y": 9,
                     "movementType": "static",
                     "direction": "down",
                     "script": [

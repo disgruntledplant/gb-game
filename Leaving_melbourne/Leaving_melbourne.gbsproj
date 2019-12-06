@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1215,
-        "worldScrollY": 600,
+        "worldScrollY": 343,
         "zoom": 400,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -881,8 +881,8 @@
                 {
                     "id": "26bced35-c28a-4394-907e-d657789afdb5",
                     "spriteSheetId": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
-                    "x": 15,
-                    "y": 11,
+                    "x": 12,
+                    "y": 9,
                     "movementType": "static",
                     "direction": "down",
                     "script": [
