@@ -3,7 +3,7 @@
         "showCollisions": true,
         "showConnections": true,
         "worldScrollX": 1215,
-        "worldScrollY": 343,
+        "worldScrollY": 549,
         "zoom": 400,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
@@ -86,8 +86,8 @@
                 {
                     "id": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
                     "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
-                    "x": 3,
-                    "y": 24,
+                    "x": 11,
+                    "y": 26,
                     "movementType": "randomWalk",
                     "direction": "down",
                     "script": [
@@ -236,8 +236,8 @@
                 {
                     "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
                     "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-                    "x": 16,
-                    "y": 13,
+                    "x": 20,
+                    "y": 11,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
@@ -746,8 +746,8 @@
                 {
                     "id": "566c8812-a204-45b5-b93a-c113c10c20de",
                     "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-                    "x": 12,
-                    "y": 5,
+                    "x": 6,
+                    "y": 7,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
