@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1215,
-        "worldScrollY": 343,
-        "zoom": 400,
+        "worldScrollX": 1123,
+        "worldScrollY": 734,
+        "zoom": 223.22411879897118,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -86,8 +86,8 @@
                 {
                     "id": "c73c195d-5cc8-4417-bdb0-b0c55c4b6188",
                     "spriteSheetId": "52ad34df-f245-4b2a-b94c-a82af1002871",
-                    "x": 3,
-                    "y": 24,
+                    "x": 11,
+                    "y": 26,
                     "movementType": "randomWalk",
                     "direction": "down",
                     "script": [
@@ -236,8 +236,8 @@
                 {
                     "id": "5cf6eb6c-be62-4efc-9cbb-14a8efac21a8",
                     "spriteSheetId": "dfa75239-299d-41fe-a6cd-9e9438da1938",
-                    "x": 16,
-                    "y": 13,
+                    "x": 20,
+                    "y": 11,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
@@ -746,8 +746,8 @@
                 {
                     "id": "566c8812-a204-45b5-b93a-c113c10c20de",
                     "spriteSheetId": "40dcd163-9f72-4861-8131-b01eb9baa000",
-                    "x": 12,
-                    "y": 5,
+                    "x": 6,
+                    "y": 7,
                     "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
@@ -1471,10 +1471,10 @@
                                             "id": "a5dddc76-e5fe-424a-9b2b-1ad1834acefb",
                                             "command": "EVENT_SWITCH_SCENE",
                                             "args": {
-                                                "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
-                                                "x": 27,
-                                                "y": 26,
-                                                "direction": "left",
+                                                "sceneId": "fd5bdd7e-6007-425b-a2cb-e238aba82675",
+                                                "x": 6,
+                                                "y": 8,
+                                                "direction": "right",
                                                 "fadeSpeed": "4"
                                             }
                                         },
@@ -2312,6 +2312,90 @@
                     "command": "EVENT_END"
                 }
             ]
+        },
+        {
+            "name": "Scene 9",
+            "backgroundId": "6287fe92-bc7e-4afe-a22c-3c4241541d1b",
+            "width": 20,
+            "height": 20,
+            "collisions": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                30,
+                50,
+                32,
+                192,
+                2,
+                2,
+                32,
+                60,
+                0,
+                66,
+                0,
+                32,
+                4,
+                0,
+                70,
+                0,
+                64,
+                4,
+                0,
+                68,
+                0,
+                64,
+                4,
+                0,
+                68,
+                0,
+                96,
+                252,
+                255,
+                3,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "id": "fd5bdd7e-6007-425b-a2cb-e238aba82675",
+            "x": 694.9397476776899,
+            "y": 371.9459762701697,
+            "actors": [
+                {
+                    "spriteSheetId": "6b571e7d-91bc-4116-8098-cc6738bc2512",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "6a5292c0-1742-48d2-9249-71f9982b1f68",
+                    "x": 11,
+                    "y": 6
+                },
+                {
+                    "spriteSheetId": "9d33f11e-209c-4f46-9e59-0d72c039a239",
+                    "movementType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "id": "43207c27-7a51-433d-9cd9-e0a4d7d32de7",
+                    "x": 9,
+                    "y": 6
+                }
+            ],
+            "triggers": []
         }
     ],
     "_version": "1.2.0",
@@ -2380,7 +2464,57 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "cave.png",
-            "_v": 1575627464832
+            "_v": 1576929567842
+        },
+        {
+            "id": "ce10fad4-2083-46fb-85fb-3a4b62f095b0",
+            "name": "Hallway",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Hallway.png",
+            "_v": 1576929567843
+        },
+        {
+            "id": "c5805537-9103-42fc-a64f-ed8feafe5fdc",
+            "name": "Hallway better",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Hallway better.png",
+            "_v": 1576929567842
+        },
+        {
+            "id": "9a47bc25-c57c-4332-babe-08ffbe4e9734",
+            "name": "Hallway copy",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Hallway copy.png",
+            "_v": 1576929567842
+        },
+        {
+            "id": "bc51a177-376e-4d5e-ba41-a70491b0e85e",
+            "name": "Hallway copy2",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Hallway copy2.png",
+            "_v": 1576929567843
+        },
+        {
+            "id": "1e132542-51c2-4684-81cf-fede7fea7997",
+            "name": "Hallway ref",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "Hallway ref.png",
+            "_v": 1576929567843
         },
         {
             "id": "b340b9a2-2865-4e05-91c0-148846a693c8",
@@ -2390,7 +2524,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "house.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -2400,7 +2534,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         },
         {
             "id": "b49ea566-b022-478c-979d-ec3ee255fdc5",
@@ -2410,7 +2544,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "menu.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         },
         {
             "id": "1b7fa267-d716-40f0-b0d0-f4f966610e07",
@@ -2420,7 +2554,47 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "outside.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
+        },
+        {
+            "id": "8884be3d-db3d-49f5-af53-25fa80cc3089",
+            "name": "room test2",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "room test2.png",
+            "_v": 1576929567844
+        },
+        {
+            "id": "6287fe92-bc7e-4afe-a22c-3c4241541d1b",
+            "name": "room test2 copy",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "room test2 copy.png",
+            "_v": 1576929567844
+        },
+        {
+            "id": "71911ea8-ddbe-48db-af4b-0971d94e370d",
+            "name": "room test2 copy2",
+            "width": 20,
+            "height": 20,
+            "imageWidth": 160,
+            "imageHeight": 160,
+            "filename": "room test2 copy2.png",
+            "_v": 1576929567844
+        },
+        {
+            "id": "c5867db4-0d03-473b-bf27-22dcb3d9018b",
+            "name": "Roommate",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "Roommate.png",
+            "_v": 1576929567844
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -2430,7 +2604,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1575627464832
+            "_v": 1576929567845
         },
         {
             "id": "f047ff0e-58ad-49fc-bd2b-ec84fc1f7ab3",
@@ -2440,7 +2614,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "titlescreen.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         },
         {
             "id": "f3102db4-2273-411d-b33f-4d6f65959c60",
@@ -2450,17 +2624,33 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "underground.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         }
     ],
     "spriteSheets": [
+        {
+            "id": "6b571e7d-91bc-4116-8098-cc6738bc2512",
+            "name": "bench1",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "bench1.png",
+            "_v": 1576929567845
+        },
+        {
+            "id": "9d33f11e-209c-4f46-9e59-0d72c039a239",
+            "name": "bench2",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "bench2.png",
+            "_v": 1576929567845
+        },
         {
             "id": "1e27bb8e-c805-435a-8b87-05b4f50da4f0",
             "name": "cat",
             "numFrames": 1,
             "type": "static",
             "filename": "cat.png",
-            "_v": 1575627464832
+            "_v": 1576929567844
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -2468,7 +2658,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1575627464832
+            "_v": 1576929567845
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -2476,7 +2666,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1575627464832
+            "_v": 1576929567846
         },
         {
             "id": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
@@ -2484,7 +2674,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "duck.png",
-            "_v": 1575627464833
+            "_v": 1576929567846
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -2492,7 +2682,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1575627464833
+            "_v": 1576929567845
         },
         {
             "id": "09ad70c6-3ce5-4b97-9e96-466221418a45",
@@ -2500,7 +2690,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "ice.png",
-            "_v": 1575627464833
+            "_v": 1576929567845
         },
         {
             "id": "dfa75239-299d-41fe-a6cd-9e9438da1938",
@@ -2508,7 +2698,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc001.png",
-            "_v": 1575627464833
+            "_v": 1576929567846
         },
         {
             "id": "40dcd163-9f72-4861-8131-b01eb9baa000",
@@ -2516,7 +2706,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "npc002.png",
-            "_v": 1575627464833
+            "_v": 1576929567846
         },
         {
             "id": "52ad34df-f245-4b2a-b94c-a82af1002871",
@@ -2524,7 +2714,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "npc003.png",
-            "_v": 1575627464833
+            "_v": 1576929567846
         },
         {
             "id": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
@@ -2532,7 +2722,7 @@
             "numFrames": 6,
             "type": "actor_animated",
             "filename": "player.png",
-            "_v": 1575627464833
+            "_v": 1576929567847
         },
         {
             "id": "a0442b6a-634f-44da-9962-77938e3ed839",
@@ -2540,7 +2730,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "radio.png",
-            "_v": 1575627464833
+            "_v": 1576929567847
         },
         {
             "id": "3939e8d2-3987-4a22-953e-f1d82134eccf",
@@ -2548,7 +2738,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "rock.png",
-            "_v": 1575627464833
+            "_v": 1576929567847
         },
         {
             "id": "e20ce140-53a5-4b1b-9964-138ba0c86925",
@@ -2556,7 +2746,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "sage.png",
-            "_v": 1575627464834
+            "_v": 1576929567847
         },
         {
             "id": "000a6dde-cb60-436e-b357-30a529daa139",
@@ -2564,7 +2754,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "savepoint.png",
-            "_v": 1575627464834
+            "_v": 1576929567847
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -2572,7 +2762,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1575627464834
+            "_v": 1576929567847
         },
         {
             "id": "e9e61bf7-88fd-491d-ae01-4b7f76909108",
@@ -2580,7 +2770,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "torch.png",
-            "_v": 1575627464834
+            "_v": 1576929567847
         }
     ],
     "music": [
@@ -2588,7 +2778,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1575627464827
+            "_v": 1576929567826
         }
     ],
     "customEvents": []
